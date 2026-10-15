@@ -1,6 +1,5 @@
-<p align="center"><img src="media/voltra-logo.jpg" alt="VOLTRA — official project logo" width="720"></p>
-
-# VOLTRA Echo
+<h1 align="center">VOLTRA</h1>
+<h2 align="center">Echo</h2>
 
 ### From the physical world to a readable number.
 

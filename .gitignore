@@ -1,0 +1,15 @@
+.build/
+build/
+__pycache__/
+*.exe
+*.obj
+*.bin
+*.elf
+*.hex
+*.log
+.env
+.env.*
+secrets.h
+credentials.h
+*.pem
+*.key

@@ -1,6 +1,18 @@
-# ESP8266 Sensor-to-Screen Distance Prototype
+<p align="center"><img src="media/voltra-logo.jpg" alt="VOLTRA — official project logo" width="720"></p>
+
+# VOLTRA Echo
 
 ### From the physical world to a readable number.
+
+![VOLTRA Echo illustrated reference architecture](media/overview.svg)
+
+## See the idea in motion
+
+[![Animated echo-validation reference workflow](media/walkthrough.gif)](media/walkthrough.mp4)
+
+[Watch or download the 12-second explainer](media/walkthrough.mp4). A silent illustration of echo validation, filtering and display state—not live sensor footage or measured distance. The physical sensor and display adapters are disabled by default.
+
+## The real prototype
 
 ![Real ESP8266 prototype with distance module and TFT](images/prototype.jpg)
 

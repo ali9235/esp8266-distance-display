@@ -1,6 +1,8 @@
 <h1 align="center">VOLTRA</h1>
 <h2 align="center">Echo</h2>
 
+<p align="center"><a href="docs/ENGINEERING_GUIDE.md">Understand the build</a> · <a href="docs/DEMO_TEST_PLAN.md">Plan a real demo</a> · <a href="tests/hardware-observations.csv">Record observations</a></p>
+
 ### From the physical world to a readable number.
 
 ![VOLTRA Echo illustrated reference architecture](media/overview.svg)
@@ -47,5 +49,15 @@ Before wiring, identify the sensor model and its logic/power requirements. Recor
 The first useful bench test should compare raw samples and displayed centimetres against several known stationary distances, including a no-echo case. Keep invalid readings distinct from zero distance. No such dataset or demonstration video is currently supplied.
 
 The owner confirms that this is a separate project from the joystick/display build. The [source and wiring checklist](WIRING_AND_SOURCE.md) records what a reproducible release still needs.
+
+## Understand, demonstrate, verify
+
+[Engineering walkthrough](docs/ENGINEERING_GUIDE.md) · [Real demonstration & test plan](docs/DEMO_TEST_PLAN.md) · [Measurement template](tests/hardware-observations.csv)
+
+The walkthrough explains the actual reference source and visible hardware. It includes troubleshooting questions and software-only learning exercises. The test plan specifies what a genuine recording and measurement should show; all hardware-observation rows remain **not_run** until a real test is performed.
+
+[![Real prototype annotated with visible components and purpose notes](media/component-guide.png)](media/component-guide.png)
+
+[Open the full-size component guide](media/component-guide.png) · [Editable SVG](media/component-guide.svg). The original photograph is embedded unchanged. Unknown functions are marked; leader lines are **not a wiring schematic**.
 
 Project author: [ali9235](https://github.com/ali9235). Newly authored reference firmware; actual connections and physical measurements remain to be verified.

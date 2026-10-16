@@ -1,0 +1,5 @@
+test_id,source_revision,condition,reference,observed,unit,acceptance_rule,status,evidence_file,notes
+E1,,,,,cm,Choose error tolerance and sample count before measurement,not_run,,
+E2,,,,,cm,Preserve repeated samples and report spread,not_run,,
+E3,,,,,ms,Invalid is not zero and recovery needs fresh history,not_run,,
+E4,,,,,cm,Compare to the explicitly recorded hysteresis settings,not_run,,
